@@ -2,7 +2,7 @@
 
 // Landing page SaaS
 
-const WHATSAPP_URL = "https://wa.me/34600000000?text=Hola%20Adrián,%20me%20interesa%20el%20sistema%20de%20QR%20para%20mi%20restaurante";
+const WHATSAPP_URL = "https://wa.me/34600000000?text=Hola,%20me%20interesa%20el%20sistema%20de%20QR%20para%20mi%20restaurante";
 
 function Section({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
@@ -192,7 +192,7 @@ export default function SaaSLanding() {
       <Section>
         <SectionLabel>Caso real</SectionLabel>
         <h2 className="font-display text-2xl md:text-4xl tracking-tight mb-8">
-          Delito Burger Club, Castellón
+          Delito Burger Club, Elda
         </h2>
         <div className="card p-8 md:p-12">
           <p className="text-[var(--text-secondary)] text-lg leading-relaxed mb-8 max-w-2xl">
@@ -241,7 +241,7 @@ export default function SaaSLanding() {
               "QR personalizados",
               "Web de tu restaurante",
               "Campañas WhatsApp",
-              "Soporte directo con Adrián",
+              "Soporte directo",
             ].map((item) => (
               <li key={item} className="flex items-center gap-3 text-[var(--text-secondary)]">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -280,7 +280,7 @@ export default function SaaSLanding() {
       {/* FOOTER */}
       <footer className="border-t border-[var(--border-subtle)] py-8 px-5 md:px-8 lg:px-12">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-[var(--text-muted)] text-sm">
-          <span>© 2025 — Hecho por Adrián desde Castellón</span>
+          <span>© 2025 Qresto</span>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--text-secondary)] transition-colors">
             Contacto
           </a>

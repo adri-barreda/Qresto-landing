@@ -17,10 +17,10 @@ const body = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "CartaBot — Tu carta en WhatsApp. Así de simple.",
+  title: "Qresto — Tu carta en WhatsApp. Así de simple.",
   description: "Sistema de QR + WhatsApp para restaurantes. Tu cliente escanea, tu carta responde. Dashboard, bot IA, carta online y más.",
   openGraph: {
-    title: "CartaBot — Tu carta en WhatsApp",
+    title: "Qresto — Tu carta en WhatsApp",
     description: "Sistema de QR + WhatsApp para restaurantes. Sin app, sin descargas, sin complicaciones.",
   },
 };
