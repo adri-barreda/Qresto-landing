@@ -2,7 +2,7 @@
 
 // Landing page SaaS
 
-const WHATSAPP_URL = "https://wa.me/34600000000?text=Hola,%20me%20interesa%20el%20sistema%20de%20QR%20para%20mi%20restaurante";
+const WHATSAPP_URL = "https://wa.me/34604943418?text=Hola,%20me%20interesa%20el%20sistema%20de%20QR%20para%20mi%20restaurante";
 
 function Section({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
