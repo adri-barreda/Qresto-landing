@@ -280,7 +280,7 @@ export default function SaaSLanding() {
       {/* FOOTER */}
       <footer className="border-t border-[var(--border-subtle)] py-8 px-5 md:px-8 lg:px-12">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-[var(--text-muted)] text-sm">
-          <span>© 2025 Qresto</span>
+          <span>© 2026 Qresto</span>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--text-secondary)] transition-colors">
             Contacto
           </a>
